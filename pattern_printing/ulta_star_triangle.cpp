@@ -4,7 +4,7 @@ int main()
 {
 
 
-    int m=5,n=4;
+    // int m=5,n=4;
     // cout<< "enter  m : ";
     // cin>>m;
     // cout<<"enter n : ";
@@ -13,14 +13,14 @@ int main()
     
     
     
-    for(int i=1 ; i<=m; i++)
-    {
-        for(int j=m; j>=i ; j--)
-        {
-            cout<<" * ";
-        }
-        cout<<endl;
-    }
+    // for(int i=1 ; i<=m; i++)
+    // {
+    //     for(int j=m; j>=i ; j--)
+    //     {
+    //         cout<<" * ";
+    //     }
+    //     cout<<endl;
+    // }
 
 
 // 11 12 13 14 15
@@ -41,7 +41,16 @@ int main()
 
 
 
+// second way 
 
+
+
+for(int i=1 ; i<=5 ; i++){
+    for(int j=1 ; j<=5-i+1; j++){
+        cout<<" * ";
+    }
+    cout<<endl;
+}
 
 
 

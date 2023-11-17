@@ -30,14 +30,14 @@ int main()
 // 1
 
 
-    for(int i=1 ; i<=5; i++)
-    {
-        for(int j=11; j>=i ; j++)
-        {
-            cout<<j<<" ";
-        }
-        cout<<endl;
-    }
+    // for(int i=1 ; i<=5; i++)
+    // {
+    //     for(int j=11; j>=i ; j--)
+    //     {
+    //         cout<<" * ";
+    //     }
+    //     cout<<endl;
+    // }
 
 
 

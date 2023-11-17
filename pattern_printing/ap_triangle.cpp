@@ -10,8 +10,8 @@ cin>>n;
 
 
 for(int i=1 ; i<=n ; i++){
-    for(int j=n ; j<=(2*n-2) ; j=j+2){
-        cout<<j<<" ";
+    for(int j=1 ; j<=i ; j++){
+        cout<<(2*j)-1<<" ";
     }
     cout<<endl;
 }

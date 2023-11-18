@@ -23,7 +23,7 @@ int ncr(int n, int r){
 int main(){
 
 
-int n;
+int n; s
 cout<<"enter n : ";
 cin>>n ;
 

@@ -5,7 +5,7 @@ void greet(){
     cout<<"good morning"<<endl;
     cout<<"hitvik"<<endl;
     cout<<endl;
-
+    return;
 
 }
 

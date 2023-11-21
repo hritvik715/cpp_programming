@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void print(int a, int b)
+void print(int a)
 {
     if (a > b)  return;
     cout << a << endl;

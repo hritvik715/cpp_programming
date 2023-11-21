@@ -5,7 +5,7 @@ void print(int a, int b)
 {
     if (a > b)  return;
     cout << a << endl;
-    print(a+1,b);
+    print(a+1);
 }
 
 int main()

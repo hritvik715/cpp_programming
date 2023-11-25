@@ -7,6 +7,8 @@ void change(int brr[] ){
 int main(){
 
     int arr[3]  = {1,2,3};
+    int no_of_elements = sizeof(arr)/4;
+    cout<<"no. of elements is : "<<no_of_elements<<endl;
     for(int i=0 ; i<=2 ; i++){
         cout<<arr[i]<<" ";
 

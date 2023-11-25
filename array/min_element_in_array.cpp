@@ -4,17 +4,17 @@ using namespace std;
 
 
 int main(){
-    int arr[] = {5,3,2};
-    int mx=INT_MIN;
+    int arr[] = {5,3,2,9};
+    int mn=INT_MAX;
     int n = sizeof(arr)/4;
     for(int i = 0 ; i<n ;i++){
         // first way
-        // if(arr[i]>mx) mx =arr[i]; 
+        if(arr[i]<mn) mn =arr[i]; 
           
         //second way
-        mx = max(mx,arr[i]);
+        // mn = min(mn,arr[i]);
     }
-    cout<<mx;
+    cout<<mn;
 
 
 
